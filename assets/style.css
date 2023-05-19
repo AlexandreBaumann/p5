@@ -85,6 +85,8 @@ body {
 
 .top-header .name {
 	font-size: 26px;
+	margin-bottom: 0.5rem;
+	line-height: 1.2;
 }
 
 .nav ul {
@@ -150,6 +152,8 @@ body {
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
+	margin-bottom: 0.5rem;
+	line-height: 1.2;
 }
 
 #about-me p:nth-child(3) {
@@ -160,6 +164,8 @@ body {
 .title{
 	text-align: center;
 	padding-block: 2em;
+	font-size: calc(1.3rem + 0.6vw);
+
 }
 .gallery .nav {
 	justify-content: center;
@@ -212,7 +218,8 @@ body {
 	font-style: italic;
 	font-weight: 300;
 	font-size:calc(1.375rem + 1.5vw);
-
+	margin-bottom: 0.5rem;
+	line-height: 1.2;
 }
 .quote__author {
 	font-family: Spectral;
@@ -353,6 +360,8 @@ input[type="submit"] {
 		height: auto;
 		margin: 2em 0
 	}
+
+
 	.service__description{
 		margin-bottom: 1em;
 	}
@@ -417,3 +426,24 @@ input[type="submit"] {
 	}
 }
 
+
+
+.service h2 {
+	font-size: calc(1.3rem + 0.6vw);
+}
+
+.service__price p:first-child {
+	font-size: calc(1.275rem + 0.3vw);
+	margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.service__price p:nth-child(2){
+	margin: 0px;
+	padding: 0px;
+}
+
+.form-container h2 {
+	font-size: calc(1.3rem + 0.6vw);
+}
