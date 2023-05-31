@@ -329,6 +329,9 @@ input[type="submit"] {
 		margin-top: 0;
 		margin-bottom: 1em;
 	}
+	#about-me p, #about-me p:nth-child(3){
+		width: 100%;
+	}
 
 }
 
