@@ -107,6 +107,7 @@ body {
 
 .social-link img {
 	width: 20px;
+	height: 20px;
 }
 
 #about {
@@ -170,7 +171,6 @@ body {
 .gallery .nav {
 	justify-content: center;
 	cursor:pointer;
-
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
@@ -455,5 +455,9 @@ input[type="submit"] {
 
 .modal-content img {
 	width: 100%;
+}
+
+.gallery-items-row img {
+	cursor: pointer;
 }
 
