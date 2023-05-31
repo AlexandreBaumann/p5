@@ -452,3 +452,8 @@ input[type="submit"] {
 .form-container h2 {
 	font-size: calc(1.3rem + 0.6vw);
 }
+
+.modal-content img {
+	width: 100%;
+}
+
